@@ -1,0 +1,23 @@
+.recipes-search-form {
+	margin-top: 20px;
+}
+
+.recipes-search {
+	display: block;
+	margin: 6px 0;
+	padding: 3px;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .group .index-subheading {
+		float: left;
+		width: 60%;
+    }
+
+    .group .recipes-search-form {
+		float: right;
+		margin-top: -28px;
+		width: 35%;
+	}
+}

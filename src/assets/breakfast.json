@@ -1,0 +1,119 @@
+[
+	{
+		"slug": "melanies-peanut-butter-granola",
+		"title": "Melanie's Peanut Butter Granola",
+		"type": "breakfast",
+		"about": "This recipe came from Melanie, who found it on her favorite blog - www.pbfingers.com. She said everything she's found on this site has been easy to make, healthy, and delicious.",
+		"ingredients": [
+			"2 tbsp. creamy peanut butter",
+			"2 tbsp. honey",
+			"1/4 tsp. cinnamon",
+			"1/4 tsp. vanilla extract",
+			"1 cup oats"
+		],
+		"instructions": "Preheat oven to 325 degrees. Spray cookie sheet with non-stick cooking spray and set aside. ##Combine peanut butter and honey in a bowl and microwave until peanut butter melts (approximately 20 seconds). ##Stir cinnamon and vanilla into peanut butter and honey mixture. Add oats and stir until oats are completely covered in peanut butter mixture. ##Spread out oat mixture onto prepared cookie sheet and bake for 15 minutes or until granola is slightly browned. ##Let cool until granola is crunchy.",
+		"img": "http://pellegrinipage.com/recipes/img/peanut-butter-granola.jpg"
+	},
+	{
+		"slug": "honey-whole-wheat-chia-seed-pancakes",
+		"title": "Honey Whole Wheat Chia Seed Pancakes",
+		"type": "breakfast",
+		"about": "This recipe came from Melanie, who found it on her favorite blog - www.pbfingers.com. It's a nice healthy take on pancakes. Great for kids and adults alike.",
+		"ingredients": [
+			"1 cup whole wheat flour",
+			"1/2 cup old fashioned oats",
+			"1 cup milk",
+			"1 egg",
+			"1 tbsp. canola oil",
+			"2 tbsp. honey",
+			"1/2 tsp. pumpkin pie spice",
+			"1 1/2 tsp. baking powder",
+			"1/4 tsp. salt",
+			"1 tbsp. chia seeds (plus more for garnish)",
+			"Syrup or other desired toppings"
+		],
+		"instructions": "Spray griddle or pan with cooking spray and heat to a medium heat. Beat egg and add milk and oil. In a separate bowl, combine flour, oats, pumpkin pie spice, baking powder and salt. Slowly stir flour mixture into egg mixture. ##Add honey and stir until combined. At the last minute, stir in the chia seeds. Pour 1/4 cup portions of batter onto griddle and cook until edges of pancakes start to bubble and bottoms are light brown. ##Flip and cook until centers are completely done (about 3-4 minutes). Top with syrup, additional chia seeds or desired toppings and enjoy!",
+		"img": "http://pellegrinipage.com/recipes/img/WheatChiaPancakes.png"
+	},
+	{
+		"slug": "mothers-day-crab-prosciutto-benedict",
+		"title": "Mother's Day Crab Prosciutto Benedict",
+		"type": "breakfast",
+		"about": "This is a dish that I first made for Jessica on Mother's Day, 2013. It's a take on classic Eggs Benedict, but instead of using Canadian Bacon I use Prosciutto, and then top the whole thing with crab meat. I had never made poached eggs or Hollandaise before making this meal but we were both really happy with how it turned out. It was served with roasted potatoes on the side. Looks like we may have a new tradition on our hands.",
+		"ingredients": [
+			"2 English muffins",
+			"4-6oz sliced Prosciutto",
+			"6-8oz crab meat (I prefer Dungeness but any kind will work)",
+			"7 eggs",
+			"2 tbsp chopped parsley (for garnish)",
+			"Butter",
+			"1 tbsp lemon juice",
+			"Dash cayenne or hot sauce (optional)",
+			"Salt & Pepper to taste",
+			"1 tbsp vinegar (optional - sweet rice wine vinegar is best)"
+		],
+		"instructions": "Heat a covered pot of water until just before it starts to boil. If it boils, reduce heat accordingly. ##While the water is heating, start making your Hollandaise. Melt 10 tablespoons of butter and keep warm. Add 3 egg yolks, one tablespoon of lemon juice, half a teaspoon of salt half a teaspoon of black pepper, and optionally a dash or cayenne pepper or hot sauce (if you like a little spice), to a blender and blend on medium speed for 20-30 seconds, until the eggs lighten in color. Turn blender down to lowest setting, slowly dribble in the hot melted butter, while continuing to blend. Taste for salt and acidity and add more salt or lemon juice to taste. ##Transfer it to a container you can use for pouring and set it on a warm – but not hot – place on or near the stovetop. Add vinegar to hot water (Tip: This helps the egg whites stay together and congeal when poaching). ##Fry the Prosciutto on medium heat with a dash of olive oil for 1 minute on each side, then remove from heat and set on a paper towel to dry. ##Poach the eggs. Here is an easy method for poaching eggs. Essentially, working one egg at a time you crack an egg into a small bowl and slip it into the barely simmering water. Once it begins to solidify, you can slip in another egg, until you have all four cooking. Turn off the heat, cover the pan, and let sit for 4 minutes. (Remember which egg went in first, you'll want to take it out first.) ##When it comes time to remove the eggs, gently lift out with a slotted spoon. Note that the timing is a little variable on the eggs, depending on the size of your pan, how much water, how many eggs, and how runny you like them. You might have to experiment a little with your set-up to figure out what you need to do to get the eggs exactly the way you like them. ##As soon as all the eggs are in the poaching water, begin toasting your English muffins. If you can’t get all the muffins toasted by the time the eggs are ready, gently remove the eggs from the poaching water and set in a bowl. ##To assemble the eggs benedict, butter one side of an English muffin. Top with Prosciutto pieces. Put a poached egg on top of the bacon, then pour some hollandaise over. Sprinkle some parsley over it all and serve at once with a side of roasted potatoes. --See Michael's Roasted Potatoes under Sides for this recipe.",
+		"img": "http://pellegrinipage.com/recipes/img/mothers-day-brunch.jpg"
+	},
+	{
+		"slug": "michaels-breakfast-stack",
+		"title": "Michael's Breakfast Stack",
+		"type": "breakfast",
+		"about": "This is a new dish that I recently made for one of our Sunday Breakfasts. It's a layered dish with French Toast on the bottom, bacon in the middle, and poached eggs on top. The idea was to have something sweet (French Toast), something salty (bacon), and a runny egg yolk to tie it all together. Hope you enjoy.",
+		"ingredients": [
+			"6 eggs",
+			"2-4 bread slices",
+			"6 bacon strips",
+			"1 tsp Ground cinnamon",
+			"1/2 tsp vanilla extract",
+			"1/4 cup milk",
+			"Powdered sugar",
+			"Salt & Pepper to taste",
+			"2 tbsp Butter",
+			"Vinegar for poaching eggs (optional - sweet rice wine vinegar is best)"
+		],
+		"instructions": "Heat a covered pot of water until just before it starts to boil. If it boils, reduce heat accordingly. Add vinegar to hot water (Tip: This helps the egg whites stay together and congeal when poaching). ##Fry bacon on medium heat for 5 minutes, then place on a paper towel to dry. In a bowl, mix 2 eggs, cinnamon, vanilla extract, milk, salt, and pepper. ##Dip bread slices into egg mixture on both sides and make sure the bread is soaking it up. Place butter in a pan and set to medium heat. Set bread slices in buttered pan and cook 3-4 minutes per side. ##Poach the eggs. Here is an easy method for poaching eggs. Essentially, working one egg at a time you crack an egg into a small bowl and slip it into the barely simmering water. Once it begins to solidify, you can slip in another egg, until you have all four cooking. Turn off the heat, cover the pan, and let sit for 4 minutes. (Remember which egg went in first, you'll want to take it out first.) When it comes time to remove the eggs, gently lift out with a slotted spoon. Note that the timing is a little variable on the eggs, depending on the size of your pan, how much water, how many eggs, and how runny you like them. You might have to experiment a little with your set-up to figure out what you need to do to get the eggs exactly the way you like them. ##To serve, first plate the French toast, then garnish with powdered sugar. Place bacon over the French toast, then top with 2 poached eggs.",
+		"img": "http://pellegrinipage.com/recipes/img/skyline_picnic-0342.jpg"
+	},
+	{
+		"slug": "brendas-breakfast-casserole",
+		"title": "Brenda's Breakfast Casserole",
+		"type": "breakfast",
+		"about": "This one comes from Uncle Jim and Aunt Brenda. It's one of their favorite breakfast dishes. Hope you enjoy.",
+		"ingredients": [
+			"1 lb breakfast sausage (I use sweet Italian)",
+			"3 cups frozen shredded hasn brown potatoes",
+			"1/4 cup melted butter",
+			"12 oz shredded cheddar cheese",
+			"1 onion, diced",
+			"1 - 16 oz container cottage cheese",
+			"6 eggs"
+		],
+		"instructions": "Preheat oven to 375 degrees. Cook sausage in a large deep skillet over medium heat until evenly browned. Drain, crumble, and set aside. ##Lightly grease a 9 x 13 inch baking dish. In the prepared baking dish, stir together the hash browns and butter. ##Line the bottom and sides of the baking dish with the mixture. ##In a bowl, mix together sausage, cheese, onion, peppers, cottage cheese, and eggs. Pour over the potato mixture (the baking dish will be very full). ##Bake for one hour, and let cool for 5 minutes before serving. Cut into squares and serve.",
+		"img": "http://pellegrinipage.com/recipes/img/Brenda6.jpg"
+	},
+	{
+		"slug": "nanas-cinnamon-rolls",
+		"title": "Nana's Cinnamon Rolls",
+		"type": "breakfast",
+		"about": "This was Nana's recipe for cinnamon rolls. The called them 'North Dakota Cinnamon Rolls'. Thank you to Jim and Brenda for submitting this recipe.",
+		"ingredients": [
+			"1 pkg active dry yeast",
+			"1/4 cup warm water",
+			"1 cup milk",
+			"3 tbsp melted butter",
+			"3 tbsp sugar",
+			"1 tsp salt",
+			"1 egg, well beaten",
+			"3.5 cups flour",
+			"1/2 cup brown sugar",
+			"4 tsp cinnamon",
+			"Caramel Topping Ingredients",
+			"1 cup brown sugar",
+			"2 tbsp light corn syrup",
+			"1 tbsp butter"
+		],
+		"instructions": "Mix active yeast with warm water. Stir and let stand for 5 minutes. ##Combine milk, butter, sugar and salt. Add softened yeast and egg. Gradually stir in flour to form soft dough. Beat vigorously. Cover with greased wax paper and towel. Let rise in a warm place until they have doubled in size (about 2 hours). ##Turn onto a flour-dusted surface, roll out 1/2 inch think into 8 x 16 inch pan, brush with melted butter, sprinkle with brown sugar and cinnamon. Roll as cinnamon roll, and cut into one inch slices. ##For caramel topping, combine brown sugar, corn syrup, and butter. Heat slowly in a greased 13 x 9 pan, then set aside to cool. ##Place the one inch sliced cinnamon rolls cut side down over caramel mixture. Cover and let rise until double in size. Bake for 25 minutes at 375 degrees. ##Remove pan from oven, turn bottom side up onto serving platter or dish.",
+		"img": ""
+	}
+]

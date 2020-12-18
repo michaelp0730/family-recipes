@@ -22,4 +22,9 @@ describe('FooterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render copyright text', () => {
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('.site-footer').textContent).toContain('Copyright PellegriniPage 2013 –');
+  });
 });

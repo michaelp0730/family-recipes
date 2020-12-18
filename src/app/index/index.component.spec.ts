@@ -22,4 +22,19 @@ describe('IndexComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render h1 text', () => {
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('h1').textContent).toContain('Family Recipes');
+  });
+
+  it('should render subheading text', () => {
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('.index-subheading').textContent).toContain('recipes');
+  });
+
+  it('should render search form', () => {
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('#recipes-search-form').textContent).toContain('Search recipes:');
+  });
 });

@@ -20,16 +20,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'family-recipes'`, () => {
+  it(`should have as title 'Pellegrini Page Family Recipes'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('family-recipes');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('family-recipes app is running!');
+    expect(app.title).toEqual('Pellegrini Page Family Recipes');
   });
 });

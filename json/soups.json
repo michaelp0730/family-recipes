@@ -190,5 +190,25 @@
 			"Cornbread (optional side)"
 		],
 		"instructions": "Saute ground turkey in a large non-stick skillet over medium heat until lightly browned; remove from heat and set aside. ##Heat olive oil in a soup pot, add onions and peppers, and saute until soft. Add garlic and seasonings and saute about 2 minutes. ##Stir in remaining ingredients and turkey; simmer for at least 30 minutes. ##Garnish options: chopped avocado, sour cream, or grated cheddar cheese. Serve with cornbread."
+	},
+	{
+		"slug": "michaels-roasted-carrot-soup",
+		"title": "Michael's Roasted Carrot Soup",
+		"type": "soups",
+		"about": "This is a vegan dish inspired by several different meals we've made from our meal services. It's a combination of flavors and techniques we've learned from making so many new dishes at home. This is a great Fall dish.",
+		"ingredients": [
+			"3 large carrots",
+			"2 tablespoons za'atar seasoning",
+			"2 cloves garlic",
+			"Half an onion",
+			"1 stalk celery",
+			"2 cups Oat Milk",
+			"1 14oz can Coconut Milk",
+			"1 cup raw walnuts",
+			"3-4 fresh Basil leaves",
+			"1 tomato"
+		],
+		"instructions": "Preheat the oven to 400 degrees. ##Peel carrots and slice into 1/4 inch thick pieces. Spread them out onto a baking sheet, lightly coat with olive oil, and season with za'atar seasoning, plus a pinch of salt and pepper. Roast in the oven at 400 for 20-25 minutes. They should be tender but not mushy. ##While the carrots are roasting, dice the onion and celery, then saute with olive oil on medium heat for about 3 minutes. While they are cooking, roughly chop the garlic and add to the onion/celery saute and cook for another 2-3 minutes. Season with a pinch of salt and pepper. ##Remove onion, celery, and garlic from heat and add to a blender. Once carrots have finished roasting, remove them from the oven and add to the blender. Add half of the can of coconut milk to the blender, then blend everything until it has a silky smooth texture. There should be no clumps. ##Move everything from the blender to a sauce pan over medium heat. The soup is currently too thick, so slowly add oat milk and coconut milk, stir well, and check the consistency. Season with salt and pepper as needed, and stop adding milk once a desired thickness has been reached. Bring soup to a boil, then reduce heat to low and leave covered while you prep the remaining ingredients. ##Dice tomato, tear basil leaves, and roughly chop the walnuts. ##Ladle soup into a bowl, then garnish with walnuts, tomatoes, and basil. Tuck in!",
+		"img": "https://pellegrinipage.com/family-recipes/images/RoastedCarrotSoup.jpg"
 	}
 ]

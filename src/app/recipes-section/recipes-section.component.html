@@ -1,8 +1,0 @@
-<section *ngIf="recipes.length" id="section-{{ type }}" class="container group">
-  <h2 class="label heading-label {{ type }}">{{ type }}</h2>
-  <ul class="link-list">
-    <li *ngFor="let recipe of recipes">
-      <a [routerLink]="[type, recipe.slug]">{{ recipe.title }}</a>
-    </li>
-  </ul>
-</section>

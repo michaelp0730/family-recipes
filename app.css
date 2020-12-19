@@ -67,6 +67,10 @@ h6 span {
 	color: #72bad1;
 }
 
+em {
+	font-style: italic;
+}
+
 .label {
 	background-color: salmon;
 	border-radius: 4px;

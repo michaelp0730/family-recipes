@@ -57,5 +57,18 @@
         </div>
     </div>
     <? include '../includes/footer.php' ?>
+    <script type="text/javascript">
+		(function () {
+			const headingEl = document.querySelector('h1');
+			const headingArr = headingEl.innerText.split(' ');
+			const span = document.createElement('span');
+			const em = document.createElement('em');
+			span.innerText = `${headingArr[0]} `;
+			em.innerText = headingArr.splice(1).join(' ');
+			headingEl.innerHTML = '';
+			headingEl.appendChild(span);
+			headingEl.appendChild(em);
+		})();
+    </script>
 </body>
 </html>

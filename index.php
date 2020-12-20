@@ -53,7 +53,7 @@
 							foreach ($recipes as $key => $value) {
 						?>
 								<li>
-									<a href="./recipes/?slug=<?php echo $value['Slug'] ?>&type=<?php echo $value['Type'] ?>">
+									<a href="./recipes/?slug=<?php echo $value['Slug'] ?>">
 										<?php echo $value['Title'] ?>
 									</a>
 								</li>

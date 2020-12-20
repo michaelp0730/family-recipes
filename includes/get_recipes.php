@@ -10,6 +10,13 @@
 		return $recipes;
 	}
 
+	function get_recipe($slug) {
+		include($_SERVER['DOCUMENT_ROOT'] . '/family-recipes/_config/db_connect.php');
+		$query = "SELECT * FROM recipes WHERE Slug='$slug'";
+		$result = mysqli_query($link, $query);
+		return mysqli_fetch_row($result);
+	}
+
 	function get_breakfast_recipes($array) {
 		$stack = array();
 

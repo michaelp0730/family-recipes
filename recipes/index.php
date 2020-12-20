@@ -1,63 +1,61 @@
-<?
-	include '../_config/db_connect.php';
-	$slug = htmlspecialchars($_GET["slug"]);
-	$type = htmlspecialchars($_GET["type"]);
-	$json_file = file_get_contents("../json/" . $type . ".json");
-	$recipes = json_decode($json_file, true);
+<?php
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
 
-	foreach ($recipes as $key => $value) {
-		if ($value['slug'] == $slug) {
-			$recipe = $value;
-		}
-	}
-	$recipe_title = $recipe['title'];
+	include '../includes/get_recipes.php';
+	$slug = htmlspecialchars($_GET['slug']);
+	$recipe = get_recipe($slug);
+	$recipe_title = $recipe[1];
+	$recipe_type = $recipe[2];
 	$page_title = $recipe_title . ' | PellegriniPage Recipes';
 	$css_path = '../app.css';
+	$ingredients = json_decode($recipe[4]);
 	include '../includes/head.php';
 ?>
 
 <body>
 	<div class="wrapper recipe-details">
 		<p>
-			<a href="../index.php" title="Go home">
+			<a href="/family-recipes" title="Go home">
 				<span class="link-icon">☚</span> Home
 			</a>
 		</p>
 
-		<h1><?= $recipe_title ?></h1>
+		<h1><?php echo $recipe_title ?></h1>
 
 		<p>
-			<span class="label <?= $recipe['type'] ?>"><?= $recipe['type'] ?></span>
+			<span class="label <?php echo $recipe_type ?>"><?php echo $recipe_type ?></span>
 		</p>
 
-		<p class="recipe-description"><?= $recipe['about'] ?></p>
+		<p class="recipe-description"><?php echo $recipe[3] ?></p>
 
-		<? if ($recipe['img']) { ?>
-			<img src="<?= $recipe['img'] ?>" class="recipe-img" alt="" role="presentation" />
-		<? } ?>
+		<?php if ($recipe[6]) { ?>
+			<img src="<?php echo $recipe[6] ?>" class="recipe-img" alt="" role="presentation" />
+		<?php } ?>
 
 		<h3>Ingredients</h3>
 		<ul class="ingredients">
-			<? foreach ($recipe['ingredients'] as $ing_key => $ing_val) { ?>
-				<li><?= $ing_val ?> </li>
-			<? } ?>
+			<?php foreach ($ingredients as $ing_key => $ing_val) { ?>
+				<li><?php echo $ing_val ?> </li>
+			<?php } ?>
 		</ul>
 
 		<h3 class="instructions-heading">Instructions</h3>
 		<div class="instructions">
-			<?
-				$instructions_array = explode('##', $recipe['instructions']);
+			<?php
+				$instructions_array = explode('##', $recipe[5]);
 				foreach ($instructions_array as $step_num => $step_val) {
 			?>
 				<p>
-					<span class="step-num">Step <?= $step_num + 1 ?></span>
+					<span class="step-num">Step <?php echo $step_num + 1 ?></span>
 					<br />
-					<?= $step_val ?>
+					<?php echo $step_val ?>
 				</p>
-			<? } ?>
+			<?php } ?>
 		</div>
 	</div>
-	<? include '../includes/footer.php' ?>
+	<?php include '../includes/footer.php' ?>
 	<script type="text/javascript">
 		(function () {
 			const headingEl = document.querySelector('h1');

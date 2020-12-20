@@ -1,7 +1,7 @@
 <?php
 	function get_all_recipes() {
-		include($_SERVER["DOCUMENT_ROOT"] . "/family-recipes/_config/db_connect.php");
-		$query = "SELECT * FROM recipes ORDER BY Title";
+		include($_SERVER['DOCUMENT_ROOT'] . '/family-recipes/_config/db_connect.php');
+		$query = 'SELECT * FROM recipes ORDER BY Title';
 		$results = mysqli_query($link, $query);
 		while ($data = mysqli_fetch_assoc($results)) {
 			$recipes[] = $data;

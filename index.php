@@ -1,20 +1,23 @@
-<?
+<?php
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
 	$page_title = 'Pellegrini Page | Family Recipes';
 	$css_path = './app.css';
 	include './includes/head.php';
-	include './_config/db_connect.php';
 	include './includes/get_recipes.php';
 
-	$breakfast_recipes = get_all_breakfast();
-	$salad_recipes = get_all_salads();
-	$soup_recipes = get_all_soups();
-	$entree_recipes = get_all_entrees();
-	$sides_recipes = get_all_sides();
-	$dessert_recipes = get_all_desserts();
+	$all_recipes = get_all_recipes();
+	$breakfast_recipes = array_filter($all_recipes, 'get_breakfast_recipes');
+	$salad_recipes = array_filter($all_recipes, 'get_salad_recipes');
+	$soup_recipes = array_filter($all_recipes, 'get_soup_recipes');
+	$entree_recipes = array_filter($all_recipes, 'get_entree_recipes');
+	$sides_recipes = array_filter($all_recipes, 'get_sides_recipes');
+	$dessert_recipes = array_filter($all_recipes, 'get_dessert_recipes');
 
-	if( isset($_GET['recipes-search']) ) {
-		$search_val = strtolower(htmlentities($_GET['recipes-search']));
-	}
+	// if( isset($_GET['recipes-search']) ) {
+	// 	$search_val = strtolower(htmlentities($_GET['recipes-search']));
+	// }
 ?>
 
 <body>
@@ -24,36 +27,32 @@
 			<span class="index-subheading">This is a collection of recipes from our family and friends. Lots of special stuff in here. Please enjoy and eat well!</span>
 			<form id="recipes-search-form" class="recipes-search-form" action="" method="get">
 				<label for="recipes-search">Search recipes:</label>
-				<input type="text" id="recipes-search" class="recipes-search" name="recipes-search" value="<?= $search_val ?>" />
+				<input type="text" id="recipes-search" class="recipes-search" name="recipes-search" value="" />
 				<button type="submit">Search</button>
 			</form>
 		</div>
 
-		<? if ($search_val) { ?>
-			<h2>Search Results:</h2>
-		<? } ?>
-
 		<section class="container group">
 			<h2 class="breakfast heading-label label">Breakfast</h2>
 			<ul class="link-list">
-				<?
-					foreach ($breakfast_recipes as $key => $breakfast_value) {
+				<?php
+					foreach ($breakfast_recipes as $key => $value) {
 				?>
 						<li>
-							<a href="./recipes/?slug=<?= $breakfast_value['Slug'] ?>&type=<?= $breakfast_value['Type'] ?>">
-								<?= $breakfast_value['Title'] ?>
+							<a href="./recipes/?slug=<?php echo $value['Slug'] ?>&type=<?php echo $value['Type'] ?>">
+								<?php echo $value['Title'] ?>
 							</a>
 						</li>
-				<?
+				<?php
 					}
 				?>
 			</ul>
 		</section>
 
-		<section id="section-salads" class="container group">
+		<section class="container group">
 			<h2 class="salads heading-label label">Salads</h2>
 			<ul class="link-list">
-				<?
+				<?php
 					foreach ($salad_recipes as $key => $salad_value) {
 				?>
 						<li>
@@ -61,16 +60,16 @@
 								<?= $salad_value['Title'] ?>
 							</a>
 						</li>
-				<?
+				<?php
 					}
 				?>
 			</ul>
 		</section>
 
-		<section id="section-soups" class="container group">
+		<section class="container group">
 			<h2 class="soups heading-label label">Soups</h2>
 			<ul class="link-list">
-				<?
+				<?php
 					foreach ($soup_recipes as $key => $soup_value) {
 				?>
 						<li>
@@ -78,16 +77,16 @@
 								<?= $soup_value['Title'] ?>
 							</a>
 						</li>
-				<?
+				<?php
 					}
 				?>
 			</ul>
 		</section>
 
-		<section id="section-entrees" class="container group">
+		<section class="container group">
 			<h2 class="entrees heading-label label">Entrees</h2>
 			<ul class="link-list">
-				<?
+				<?php
 					foreach ($entree_recipes as $key => $entree_value) {
 				?>
 						<li>
@@ -95,16 +94,16 @@
 								<?= $entree_value['Title'] ?>
 							</a>
 						</li>
-				<?
+				<?php
 					}
 				?>
 			</ul>
 		</section>
 
-		<section id="section-sides" class="container group">
+		<section class="container group">
 			<h2 class="sides heading-label label">Sides</h2>
 			<ul class="link-list">
-				<?
+				<?php
 					foreach ($sides_recipes as $key => $sides_value) {
 				?>
 						<li>
@@ -112,16 +111,16 @@
 								<?= $sides_value['Title'] ?>
 							</a>
 						</li>
-				<?
+				<?php
 					}
 				?>
 			</ul>
 		</section>
 
-		<section id="section-desserts" class="container group">
+		<section class="container group">
 			<h2 class="desserts heading-label label">Desserts</h2>
 			<ul class="link-list">
-				<?
+				<?php
 					foreach ($dessert_recipes as $key => $dessert_value) {
 				?>
 						<li>
@@ -129,12 +128,12 @@
 								<?= $dessert_value['Title'] ?>
 							</a>
 						</li>
-				<?
+				<?php
 					}
 				?>
 			</ul>
 		</section>
 	</div>
-	<? include './includes/footer.php' ?>
+	<?php include './includes/footer.php' ?>
 </body>
 </html>

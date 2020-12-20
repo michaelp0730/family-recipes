@@ -1,60 +1,66 @@
-<?
-	function get_all_breakfast() {
-		$query = "SELECT * FROM recipes WHERE Type = 'breakfast' ORDER BY Title";
-		$results = mysql_query($query);
-		while ($data = mysql_fetch_assoc($results)) {
+<?php
+	function get_all_recipes() {
+		include($_SERVER["DOCUMENT_ROOT"] . "/family-recipes/_config/db_connect.php");
+		$query = "SELECT * FROM recipes ORDER BY Title";
+		$results = mysqli_query($link, $query);
+		while ($data = mysqli_fetch_assoc($results)) {
 			$recipes[] = $data;
 		}
 
 		return $recipes;
 	}
 
-	function get_all_salads() {
-		$query = "SELECT * FROM recipes WHERE Type = 'salads' ORDER BY Title";
-		$results = mysql_query($query);
-		while ($data = mysql_fetch_assoc($results)) {
-			$recipes[] = $data;
-		}
+	function get_breakfast_recipes($array) {
+		$stack = array();
 
-		return $recipes;
+		if ($array['Type'] === 'breakfast') {
+			array_push($stack, $array);
+		}
+		return $stack;
 	}
 
-	function get_all_soups() {
-		$query = "SELECT * FROM recipes WHERE Type = 'soups' ORDER BY Title";
-		$results = mysql_query($query);
-		while ($data = mysql_fetch_assoc($results)) {
-			$recipes[] = $data;
-		}
+	function get_salad_recipes($array) {
+		$stack = array();
 
-		return $recipes;
+		if ($array['Type'] === 'salads') {
+			array_push($stack, $array);
+		}
+		return $stack;
 	}
 
-	function get_all_entrees() {
-		$query = "SELECT * FROM recipes WHERE Type = 'entrees' ORDER BY Title";
-		$results = mysql_query($query);
-		while ($data = mysql_fetch_assoc($results)) {
-			$recipes[] = $data;
-		}
+	function get_soup_recipes($array) {
+		$stack = array();
 
-		return $recipes;
+		if ($array['Type'] === 'soups') {
+			array_push($stack, $array);
+		}
+		return $stack;
 	}
 
-	function get_all_sides() {
-		$query = "SELECT * FROM recipes WHERE Type = 'sides' ORDER BY Title";
-		$results = mysql_query($query);
-		while ($data = mysql_fetch_assoc($results)) {
-			$recipes[] = $data;
-		}
+	function get_entree_recipes($array) {
+		$stack = array();
 
-		return $recipes;
+		if ($array['Type'] === 'entrees') {
+			array_push($stack, $array);
+		}
+		return $stack;
 	}
 
-	function get_all_desserts() {
-		$query = "SELECT * FROM recipes WHERE Type = 'desserts' ORDER BY Title";
-		$results = mysql_query($query);
-		while ($data = mysql_fetch_assoc($results)) {
-			$recipes[] = $data;
-		}
+	function get_sides_recipes($array) {
+		$stack = array();
 
-		return $recipes;
+		if ($array['Type'] === 'sides') {
+			array_push($stack, $array);
+		}
+		return $stack;
 	}
+
+	function get_dessert_recipes($array) {
+		$stack = array();
+
+		if ($array['Type'] === 'desserts') {
+			array_push($stack, $array);
+		}
+		return $stack;
+	}
+?>

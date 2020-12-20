@@ -10,7 +10,6 @@
 	$recipe_type = $recipe[2];
 	$page_title = $recipe_title . ' | PellegriniPage Recipes';
 	$css_path = '../app.css';
-	$ingredients = json_decode($recipe[4]);
 	include '../includes/head.php';
 ?>
 
@@ -36,9 +35,14 @@
 
 		<h3>Ingredients</h3>
 		<ul class="ingredients">
-			<?php foreach ($ingredients as $ing_key => $ing_val) { ?>
+			<?php
+				$ingredients_array = explode('##', $recipe[4]);
+				foreach ($ingredients_array as $ing_key => $ing_val) {
+			?>
 				<li><?php echo $ing_val ?> </li>
-			<?php } ?>
+			<?php
+				}
+			?>
 		</ul>
 
 		<h3 class="instructions-heading">Instructions</h3>

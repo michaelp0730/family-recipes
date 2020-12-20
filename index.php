@@ -49,7 +49,7 @@
 			</form>
 		</div>
 
-		<?php if( isset($_GET['recipes-search']) ) { ?>
+		<?php if( $search_term ) { ?>
 			<h2>Search Results:</h2>
 		<?php } ?>
 

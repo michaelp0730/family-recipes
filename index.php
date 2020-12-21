@@ -8,6 +8,8 @@
 	include './includes/head.php';
 	include './includes/get_recipes.php';
 
+	$search_term = null;
+
 	if( isset($_GET['recipes-search']) ) {
 		$search_term = strtolower(htmlentities($_GET['recipes-search']));
 		$search_results = search_recipes($search_term);

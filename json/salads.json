@@ -39,7 +39,8 @@
 			"4 oz. Tako (Cooked Octopus)",
 			"2 Radishes, sliced thinly"
 		],
-		"instructions": "In a sauté pan, simmer the fennel & mussels in olive oil until they begin to open, add the prawns and saute until they are lightly cooked and pink, remove from heat and add the cucumber. ##Chop the tuna in large pieces, squeeze in the Meyer lemon juice, tear they mint leaves and add radishes, adjust seasoning with sea salt and olive oil and add the Octopus. ##To plate the salad start with the warm items and top with the cool ones."
+		"instructions": "In a sauté pan, simmer the fennel & mussels in olive oil until they begin to open, add the prawns and saute until they are lightly cooked and pink, remove from heat and add the cucumber. ##Chop the tuna in large pieces, squeeze in the Meyer lemon juice, tear they mint leaves and add radishes, adjust seasoning with sea salt and olive oil and add the Octopus. ##To plate the salad start with the warm items and top with the cool ones.",
+		"img": "https://pellegrinipage.com/family-recipes/images/SeafoodSalad.jpg"
 	},
 	{
 		"slug": "heirloom-tomato-vinaigrette",
@@ -57,7 +58,8 @@
 			"Dash of Worcestershire",
 			"Salt & Pepper"
 		],
-		"instructions": "Add all ingredients to a blender and liquify. Taste and season as necessary."
+		"instructions": "Add all ingredients to a blender and liquify. Taste and season as necessary.",
+		"img": "https://pellegrinipage.com/family-recipes/images/HeirloomTomatoVinaigrette.jpg"
 	},
 	{
 		"slug": "mustard-dill-tortellini-salad-skewers",
@@ -71,7 +73,8 @@
 			"1 pt. grape tomatoes, cut in half",
 			"Mustard-Dill Vinaigrette - or Champagne Vinaigrette"
 		],
-		"instructions": "Cook tortellini according to package directions. Rinse under cold running water. ##Place sugar snap peas in a small bowl; cover with plastic wrap. Microwave at HIGH 2 minutes. Let stand, covered, 2 minutes. Rinse under cold running water. ##Thread each skewer with 1 sugar snap pea, 1 tortellini, and 1 tomato half. Place skewers in a 13- x 9-inch baking dish. ##Pour Mustard-Dill Vinaigrette over skewers, turning to coat. Cover and chill 4 hours. ##Transfer skewers to a serving platter; discard any remaining vinaigrette. *1 (12-oz.) bottle light Champagne vinaigrette may be substituted. For testing purposes only, we used Girard's Light Champagne Dressing."
+		"instructions": "Cook tortellini according to package directions. Rinse under cold running water. ##Place sugar snap peas in a small bowl; cover with plastic wrap. Microwave at HIGH 2 minutes. Let stand, covered, 2 minutes. Rinse under cold running water. ##Thread each skewer with 1 sugar snap pea, 1 tortellini, and 1 tomato half. Place skewers in a 13- x 9-inch baking dish. ##Pour Mustard-Dill Vinaigrette over skewers, turning to coat. Cover and chill 4 hours. ##Transfer skewers to a serving platter; discard any remaining vinaigrette. *1 (12-oz.) bottle light Champagne vinaigrette may be substituted. For testing purposes only, we used Girard's Light Champagne Dressing.",
+		"img": "https://pellegrinipage.com/family-recipes/images/TortelliniSkewers.jfif"
 	},
 	{
 		"slug": "edamame-black-bean-salad",

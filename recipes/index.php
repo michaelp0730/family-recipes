@@ -8,6 +8,7 @@
 	$recipe = get_recipe($slug);
 	$recipe_title = $recipe[1];
 	$recipe_type = $recipe[2];
+	$recipe_img = $recipe[6];
 	$page_title = $recipe_title . ' | PellegriniPage Recipes';
 	$css_path = '../app.css';
 	include '../includes/head.php';
@@ -27,10 +28,10 @@
 			<span class="label <?php echo $recipe_type ?>"><?php echo $recipe_type ?></span>
 		</p>
 
-		<div class="group">
+		<div class="description-container flex-center <?php if ($recipe_img) echo 'has-img' ?>">
 			<p class="recipe-description"><?php echo $recipe[3] ?></p>
-			<?php if ($recipe[6]) { ?>
-				<img src="<?php echo $recipe[6] ?>" class="recipe-img" alt="" role="presentation" />
+			<?php if ($recipe_img) { ?>
+				<img src="<?php echo $recipe_img ?>" class="recipe-img" alt="" role="presentation" />
 			<?php } ?>
 		</div>
 

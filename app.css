@@ -200,19 +200,32 @@ strong {
 		float: right;
 		margin-top: -28px;
 		width: 35%;
-    }
-
-    .recipe-description {
-		float: left;
-		margin: 24px 0;
-		width: 66%;
-    }
+	}
 
     .recipe-img {
-		float: right;
+		margin-left: 36px;
 		margin-top: 0;
 		max-width: 50%;
     }
+
+	.flex-center {
+		align-items: center;
+		display: flex;
+	}
+
+	.description-container {
+		background-color: #EEE;
+		margin-top: 24px;
+		padding: 24px;
+	}
+
+	.description-container.has-img {
+		justify-content: center;
+	}
+
+	.description-container.has-img .recipe-description {
+		width: 66%;
+	}
 
     .instructions-heading {
 		margin-top: 50px;
@@ -247,11 +260,5 @@ strong {
 @media screen and (min-width: 1170px) {
 	.link-list li {
 		margin: 18px 36px 18px 16px;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	.recipe-img {
-		max-width: 33%;
 	}
 }

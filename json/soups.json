@@ -41,7 +41,8 @@
 			"1 (1.25 oz.) package taco seasoning",
 			"3 whole skinless, boneless, chicken breasts, thawed or frozen"
 		],
-		"instructions": "Stir onion, beans, corn, tomato sauce, dice tomatoes, and taco sauce into a slow cooker. Sautee the onion before to make sure that they are not crunchy. Lay the chicken breast on top of the mixture, pressing down slightly so that it gets covered by other ingredients. ##Set slow cooker to low heat, cover, and cook for 3-4 hours on low if your chicken is thawed. May take 4-5 hours on low if your chicken is frozen. ##Remove chicken breasts from the chili and shred. A good tip for shredding cooked chicken is to place it in a bowl and use a powered hand mixer. It shreds perfectly evenly. Stir shredded chicken back into the soup. ##You're technically supposed to cook it on low for another 2 hours in the crockpot but its not really necessary. It's a very forgiving dish that can go about as long as you want it to. Top with shredded cheese, sour cream, and crushed tortilla chips."
+		"instructions": "Stir onion, beans, corn, tomato sauce, dice tomatoes, and taco sauce into a slow cooker. Sautee the onion before to make sure that they are not crunchy. Lay the chicken breast on top of the mixture, pressing down slightly so that it gets covered by other ingredients. ##Set slow cooker to low heat, cover, and cook for 3-4 hours on low if your chicken is thawed. May take 4-5 hours on low if your chicken is frozen. ##Remove chicken breasts from the chili and shred. A good tip for shredding cooked chicken is to place it in a bowl and use a powered hand mixer. It shreds perfectly evenly. Stir shredded chicken back into the soup. ##You're technically supposed to cook it on low for another 2 hours in the crockpot but its not really necessary. It's a very forgiving dish that can go about as long as you want it to. Top with shredded cheese, sour cream, and crushed tortilla chips.",
+		"img": "https://pellegrinipage.com/family-recipes/images/ChickenTacoChili.jpg"
 	},
 	{
 		"slug": "chicken-enchilada-soup",
@@ -64,7 +65,8 @@
 			"1/2 teaspoon salt",
 			"1-can Mexican Black Beans Drained (optional)"
 		],
-		"instructions": "Rinse and pat dry chicken breast, then place in bottom of oiled slow cooker. Add all other mixed ingredients. ##Cook on low for 6 hours. Transfer chicken to large plate and shred the meat with 2 forks. Remove bay leaves and add black beans. Return chicken to slow cooker and continue cooking for additional 30 - 60 minutes. ##Garnish with sour cream, wedge of lime, avocado, cilantro, and tortilla strips."
+		"instructions": "Rinse and pat dry chicken breast, then place in bottom of oiled slow cooker. Add all other mixed ingredients. ##Cook on low for 6 hours. Transfer chicken to large plate and shred the meat with 2 forks. Remove bay leaves and add black beans. Return chicken to slow cooker and continue cooking for additional 30 - 60 minutes. ##Garnish with sour cream, wedge of lime, avocado, cilantro, and tortilla strips.",
+		"img": "https://pellegrinipage.com/family-recipes/images/ChickenEnchiladaSoup.jpg"
 	},
 	{
 		"slug": "loaded-potato-soup",
@@ -82,7 +84,8 @@
 			"1 cup cream or 1 cup 1/2 and 1/2 cream",
 			"1 cup shredded sharp cheddar cheese"
 		],
-		"instructions": "Combine first 7 ingredients in a large slow cooker and cook on high for 4 hours or low for 8 hours (potatoes should be tender). Then you will need to mash potatoes until coarsely chopped and soup is slightly thickened. ##Stir in cream and cheese. Garnish with cives, sour cream, bacon, and cheeses. Simple and delicious!"
+		"instructions": "Combine first 7 ingredients in a large slow cooker and cook on high for 4 hours or low for 8 hours (potatoes should be tender). Then you will need to mash potatoes until coarsely chopped and soup is slightly thickened. ##Stir in cream and cheese. Garnish with cives, sour cream, bacon, and cheeses. Simple and delicious!",
+		"img": "https://pellegrinipage.com/family-recipes/images/LoadedPotatoSoup.jpg"
 	},
 	{
 		"slug": "ricks-lobster-corn-chowder",
@@ -107,7 +110,8 @@
 			"2 cups cooked lobster (fresh or frozen), cut into 1/2 inch dice",
 			"1/4 cup parsley"
 		],
-		"instructions": "Cut bacon into small dice and place in a large pot over low heat. Cook, stirring to render the fat, for 5 to 7 minutes. Add butter and let it melt. Add onion and cook over low heat, stirring occasionally, until wilted (about 10 minutes). ##Add flour, cook and continue to stir for 1 minute. Simmer broth, bay leaves, and paprika in the pot for 5 minutes to flavor the broth. Add potatoes and thyme; cook until potatoes are just tender, about 15 minutes. Add half-and-half, corn, peppers, and scallions; cook 10 minutes. ##Season with salt and pepper Add lobster and parsley just before serving hot. Serves 8."
+		"instructions": "Cut bacon into small dice and place in a large pot over low heat. Cook, stirring to render the fat, for 5 to 7 minutes. Add butter and let it melt. Add onion and cook over low heat, stirring occasionally, until wilted (about 10 minutes). ##Add flour, cook and continue to stir for 1 minute. Simmer broth, bay leaves, and paprika in the pot for 5 minutes to flavor the broth. Add potatoes and thyme; cook until potatoes are just tender, about 15 minutes. Add half-and-half, corn, peppers, and scallions; cook 10 minutes. ##Season with salt and pepper Add lobster and parsley just before serving hot. Serves 8.",
+		"img": "https://pellegrinipage.com/family-recipes/images/LobsterCornChowder.jpg"
 	},
 	{
 		"slug": "michaels-meat-lovers-chili",

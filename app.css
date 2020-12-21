@@ -149,6 +149,7 @@ strong {
 }
 
 .recipe-img {
+	margin-top: 12px;
 	max-width: 100%;
 }
 
@@ -202,12 +203,14 @@ strong {
     }
 
     .recipe-description {
+		float: left;
 		margin: 24px 0;
 		width: 66%;
     }
 
     .recipe-img {
 		float: right;
+		margin-top: 0;
 		max-width: 50%;
     }
 

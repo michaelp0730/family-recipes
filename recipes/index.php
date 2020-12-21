@@ -27,11 +27,12 @@
 			<span class="label <?php echo $recipe_type ?>"><?php echo $recipe_type ?></span>
 		</p>
 
-		<p class="recipe-description"><?php echo $recipe[3] ?></p>
-
-		<?php if ($recipe[6]) { ?>
-			<img src="<?php echo $recipe[6] ?>" class="recipe-img" alt="" role="presentation" />
-		<?php } ?>
+		<div class="group">
+			<p class="recipe-description"><?php echo $recipe[3] ?></p>
+			<?php if ($recipe[6]) { ?>
+				<img src="<?php echo $recipe[6] ?>" class="recipe-img" alt="" role="presentation" />
+			<?php } ?>
+		</div>
 
 		<h3>Ingredients</h3>
 		<ul class="ingredients">
